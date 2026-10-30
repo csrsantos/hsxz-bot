@@ -1,0 +1,20 @@
+{
+  "name": "hsxz-ticket-bot",
+  "version": "2.0.0",
+  "description": "Bot de tickets HSXZ Solutions para Discord, com anexos, transcript e configuração pelo Discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js",
+    "test": "node tests/test_basico.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "discord-html-transcripts": "^3.2.0",
+    "discord.js": "^14.22.0",
+    "dotenv": "^16.4.5"
+  }
+}
